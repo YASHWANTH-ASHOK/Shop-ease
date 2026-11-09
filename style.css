@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: rgb(20, 19, 19);
+    background-color: grey;
+}
+
+.hero {
+    background-image: url(./media/images.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+}
+
+.img{
+    height: 220px;
+}
